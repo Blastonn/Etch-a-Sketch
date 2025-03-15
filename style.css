@@ -15,9 +15,10 @@ body{
 .grid{
     display: flex;
     width: 600px;
-    height: 600px;
+    padding: -1px;
+    height: auto;
     background-color: white;
-    border: solid 1px black;
+    flex-wrap: wrap;
 }
 
 .quadrado{
