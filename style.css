@@ -6,25 +6,23 @@ body{
 
 .container{
     display: flex; 
+    padding: 20px;
     justify-content: center; 
     align-items: center; 
-    height: 100vh; 
-    margin: 0; 
 }
 
 .grid{
     display: flex;
-    width: 592px;
-    height: auto;
+    width: 960px;
+    height: 960px;
     background-color: white;
     flex-wrap: wrap;
     justify-content: center;
-    border: solid 5px rgb(228, 8, 45);
+    border: solid 5px black;
 }
 
 .quadrado{
     display: flex;
-    width: 16px;
-    height: 16px;
-    background-color: black;
+    width: 160px;
+    height: 160px;
 }
