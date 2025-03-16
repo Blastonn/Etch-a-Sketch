@@ -3,18 +3,24 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+button{
+    display: flex;
+    padding: 15px;
+    
+}
 
 .container{
     display: flex; 
-    padding: 20px;
     justify-content: center; 
     align-items: center; 
+    padding: 12px;
+    margin: 20px;
 }
 
 .grid{
     display: flex;
     width: 960px;
-    height: 960px;
+    height: auto;
     background-color: white;
     flex-wrap: wrap;
     justify-content: center;
@@ -25,4 +31,11 @@ body{
     display: flex;
     width: 160px;
     height: 160px;
+}
+
+.btn{
+    display: flex;
+
+    margin-bottom: auto;
+    margin-right: 40px;
 }
