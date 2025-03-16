@@ -14,11 +14,12 @@ body{
 
 .grid{
     display: flex;
-    width: 600px;
-    padding: -1px;
+    width: 592px;
     height: auto;
     background-color: white;
     flex-wrap: wrap;
+    justify-content: center;
+    border: solid 5px rgb(228, 8, 45);
 }
 
 .quadrado{

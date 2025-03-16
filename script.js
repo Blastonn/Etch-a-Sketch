@@ -17,8 +17,6 @@ function adicionarQuadrados(){
             const quadrado = document.createElement("div");
             quadrado.classList.add("quadrado");
             gridQuadrado.appendChild(quadrado);
-            quadrado.style.border = "solid 1x white";
-
         }
     }
 }
