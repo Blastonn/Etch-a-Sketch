@@ -6,12 +6,11 @@ body{
 button{
     display: flex;
     padding: 15px;
-    
 }
 
 .container{
     display: flex; 
-    justify-content: center; 
+    justify-content: center;
     align-items: center; 
     padding: 12px;
     margin: 20px;
@@ -19,11 +18,9 @@ button{
 
 .grid{
     display: flex;
-    width: 960px;
-    height: auto;
+    width: auto;
     background-color: white;
     flex-wrap: wrap;
-    justify-content: center;
     border: solid 5px black;
 }
 
@@ -31,11 +28,13 @@ button{
     display: flex;
     width: 160px;
     height: 160px;
+    flex: auto;
+    border: solid 1px violet ;
+    opacity: 20%;
 }
 
 .btn{
     display: flex;
-
     margin-bottom: auto;
     margin-right: 40px;
 }
